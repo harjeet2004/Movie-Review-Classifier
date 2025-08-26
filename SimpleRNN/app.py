@@ -9,7 +9,7 @@ import streamlit as st
 word_index=imdb.get_word_index() ## Dictionary with the words as keys and the corresponding one-hot encoded indices as values
 rev_keyval={value:key for key,value in word_index.items()}
 
-model=load_model('simple_rnn_imdb.h5')
+model=load_model('SimpleRNN/simple_rnn_imdb.h5')
 # Function to decode reviews (numbers → words)
 def decode_review(encoded_review):
     # IMDB dataset quirk:
