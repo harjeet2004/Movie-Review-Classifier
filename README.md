@@ -1,4 +1,4 @@
-# 🎬 Movie Review Classifier (Sentiment Analysis)
+# 🎬 Movie Review Classifier 
 
 This repository contains an AI-powered web application built with **TensorFlow/Keras** and **Streamlit**, which classifies IMDB movie reviews as **Positive** or **Negative**.  
 
